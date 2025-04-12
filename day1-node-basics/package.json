@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ "scripts": {
+  "start": "node server.js",
+  "hello": "echo \"Hello from npm script!\""
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ImaneTech/nestjs-learning-documentation.git"
@@ -20,4 +21,6 @@
   "dependencies": {
     "express": "^5.1.0"
   }
+
+  
 }
